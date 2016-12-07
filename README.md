@@ -4,6 +4,3 @@
 
 My current personal website. Hasn't been updated in quite a while.
 
-<hr>
-
-Mark Yoon - <a href="http://mark-yoon.github.io">My website</a>.
