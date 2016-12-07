@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mark Yoon Computer Science Undergraduate">
+  <meta name="author" content="Mark Yoon">
+  <link rel="icon" type="image/ico" href="./assets/favicon.ico"/>
+
+  <title>Mark</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script type="text/javascript" src="./js/typewriter-bundle.min.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-58317412-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+  <div id="name">
+    <span id="typewriter" class="typewriter"></span><span id="pre" class="caret">&nbsp;</span>
+  </div>
+  <div id="content">
+    <ul>
+      <li><b>school</b><a href="http://www.engineering.cornell.edu/" target="_blank">cornell university</a></li>
+      <li><b>major</b><a href="http://www.cs.cornell.edu/" target="_blank">computer science</a></li>
+      <li><b>email</b><a href="mailto:mark.youngho.yoon@gmail.com">mark.youngho.yoon@gmail.com</a></li>
+      <li><b>resume</b><a href="./assets/Mark_Yoon.pdf" target="_blank">mark_yoon.pdf</a></li>
+      <li><b>blog</b><a href="./blog">/blog/</a></li>
+      <li><b>github</b><a href="https://github.com/yhyoon12">/yhyoon12</a></li>
+      <li><b>linkedin</b><a href="https://www.linkedin.com/in/markyounghoyoon">/markyounghoyoon</a></li>
+    </ul>
+  </div>
+  <footer>Mark Yoon / 07670.46038.14850 <br><a href="./v01/index.html">v01</a> <a href="./v02/index.html">v02</a></footer>
+
+
+  <script>
+
+  function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
+  }
+
+  var typewriter = require('typewriter');
+  var twSpan = document.getElementById('typewriter');
+  var tw = typewriter(twSpan).withAccuracy(100)
+                                     .withMinimumSpeed(8)
+                                     .withMaximumSpeed(10)
+                                     .build();
+
+  tw.clear()
+    .put('$ ')
+    .wait(1200)
+    .type('Mark Yoon')
+    .put('<br/>')
+    .wait(300)
+    .put('student/engineer', function () {})
+    .put('<br/>')
+    .wait(300)
+    .put('$ ')
+
+  function blink() {
+    var pre = document.getElementById('pre');
+    pre.id = "blink";
+  }
+  setTimeout(blink, 3800);
+
+
+
+  </script>
+  </div>
+</body>

@@ -1,0 +1,93 @@
+
+html {
+  font-size: 10px;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  background-color: #ffffff;
+}
+
+#name {
+	font: Monaco, Consolas, "Lucida Console", monospace;
+	font-size: 17px;
+	padding: 8rem 1rem 1rem 8%;
+	height: 20%;
+	position:absolute;
+}
+
+#content {
+  padding: 16rem 1rem 1rem 8%;
+  font: 1.4rem/1.4em, Monaco, Consolas, "Lucida Console", monospace;
+  position: absolute;
+}
+
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0 0 0.5rem 0;
+  font-size: 14px;
+  color: #787878;
+}
+
+b {
+  color: #000000;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  width: 15rem;
+}
+
+a, a:visited, a:active{
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+  color: #787878;
+}
+
+a:hover {
+  color: #000000;
+}
+
+footer {
+  font-size: 12px;
+  position: absolute;
+  bottom: 3%;
+  left: 8%;
+  color: #787878;
+}
+
+footer a{
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+.typewriter {
+  white-space: pre-wrap;
+  margin-right: -6px;
+}
+
+.caret {
+  background: #000000;
+}
+
+#blink{
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+}
+@-webkit-keyframes blink {
+    from, to { background: transparent }
+    50% { background: black }
+}
+
+@-moz-keyframes blink {
+    from, to { background: transparent }
+    50% { background: black }
+}

@@ -1,0 +1,76 @@
+h1 {
+	font-family: 'Josefin Sans';
+	text-align: center;
+	font-size: 90px;
+	margin-top: 50px;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Josefin Sans';
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-weight: 100;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  margin-left: 26%;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 27%;
+  margin-right: 27%;
+}
+
+#btn-1 {
+  color: #ffffff;
+  background-color: #2196F3;
+  margin: 10px;
+}
+
+#btn-2 {
+  color: #ffffff;
+  background-color: #2C9CCA;
+  margin: 10px;
+}
+
+#btn-3 {
+  color: #ffffff;
+  background-color: #37A3A2;
+  margin: 10px;
+}
+
+#btn-4 {
+  color: #ffffff;
+  background-color: #41A979;
+  margin: 10px;
+}
+
+#btn-5 {
+  color: #ffffff;
+  background-color: #4CAF50;
+  margin: 10px;
+}
+
+.center-x { 
+	text-align: center;
+}
+
+.circular {
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  background: url(../assets/yoon_mark_photo.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+}
